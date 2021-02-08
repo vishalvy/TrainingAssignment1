@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
+                                                                /* HEADER CSS */
+.my-auto {
+    font-family: 'Satisfy','cursive'; 
+    font-size: large;
+}
+
+a.nav-link.ml-4:hover{
+    color: greenyellow !important;
+}
+
+                                                                 /* DOWNLOAD BAR */
 
 #downloadbar {
     background-color: rgb(128, 128, 128);
@@ -8,20 +19,23 @@
     color: white;
     margin-top: 15px;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 #downloadnow-btn {
     margin-left: 25px;
     border: white solid 2px;
 }
 
+                                                                /* FATHER AND SON HOLDING */
+ 
 .holdinghandimg {
     width: 100%;
     height: 500px;
 }
 .holdinghandtext{
     font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #contactus-btn {
@@ -40,6 +54,7 @@
     text-align: center;
     top: 30%;
     right: 10%;
+    
 }
 
 .videoplay{
@@ -57,6 +72,9 @@
     border-radius: 0%;
 }
 
+
+                                                                /* ABOUT US CONTENT */
+
 #contactus2-btn {
     background-color: greenyellow;
     color: white;
@@ -66,6 +84,7 @@
     margin-top: 7%;
     margin-left: 10%;
     margin-right: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .aboutusimg {
     width: 300px;
@@ -81,6 +100,8 @@
     font-size: 25px;
 }
 
+
+                                                                    /* PROGRESS BAR */
 
 .horProgressImg {
     width: 100%;
@@ -145,11 +166,14 @@
     border-radius: 50%;
 }
 
-
+                                                                /* CARDS CONTENT */
 
 .cardscontainerimg{
     width: 100%;
     height: 600px;
+}
+.pink {
+    background-color: pink;
 }
 
 .cardscontainer {
@@ -160,25 +184,21 @@
 .pargraphcontent{
     position: absolute;
     top: 3%;
-    left: 23%;
+    left: 25%;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-.bothcard {
+.bothcard{
     position: absolute;
-    top: 20%;
-    left: 50%;
-    opacity: 0.9;
+    top: 30%;
 }
 .cardscontent1{
     position: absolute;
-    top: 10%;
-    right: 20%;
+    left: 38%;
 }
 .cardscontent2 {
     position: absolute;
-    top: 5%;
-    left: 10%;
+    left: 36%;
 }
 
 #getstarted-btn{
@@ -187,11 +207,15 @@
 }
 .card-text {
     font-size: 16px;
+    
 }
 .card{
-    width: 400px;
+    width: 350px;
+    font-family: 'Times New Roman', Times, serif;
 }
-                                                                /* Carousel */
+
+
+                                                                    /* Carousel CONTENT*/
 
 .carousel-inner {
     width: 100%;
@@ -217,6 +241,7 @@
     position: absolute;
     top: -20%;
     left: 30%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -224,7 +249,10 @@
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+                                                                /* BLOGS CONTENT */
 
 #h1blog{
     padding-top: 30px;
@@ -246,11 +274,14 @@
 }
 .blog1 ,.blog2 ,.blog3{ 
     text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 #readmore-btn:hover {
     background-color: greenyellow;
     color: white;
 }
+
+                                                                    /* FOOTER CONTENT */
 
 .footercontent {
     background-color: rgba(0, 0, 0, 0.8);
@@ -267,29 +298,33 @@
     color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #footerbutton1 ,#footerbutton2 {
     background-color: yellowgreen;
     color: white;
-    width: 205px;
+    width: 210px;
     height: 50px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .footertitle{
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footerpara{
     color: white;
     opacity: 0.3;
     font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .footeraddress{
     color: white;
     opacity: 0.5;
     font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .recentpostlist{
@@ -299,6 +334,7 @@
     font-size: 12px;
     color: white;
     opacity: 0.3;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 li{
@@ -309,12 +345,15 @@ li{
     margin: 0%;
     padding-left: 15px;
     font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .footerhref{
     text-decoration: none;
     color: white;
     opacity: 0.4;
 }
+
+                                                            /* SOCIAL LINKS CONTENT */
 
 .sociallinkcontainer{
     background-color: black;
@@ -337,7 +376,7 @@ li{
 @media (min-width:350px) and (max-width:400px){
        
     .logoimg{
-        width: 35vh;
+        width: 42vh;
     }
     .active {
         color: greenyellow;
@@ -352,8 +391,8 @@ li{
     }
     
     #contactus-btn {
-        font-size: 11px;
-        width: 140px;
+        font-size: 10px;
+        width: 150px;
         height: 35px;
     } 
     .holdinghandcontent {
@@ -370,33 +409,36 @@ li{
         height: 50px;
     }
     #downloadbar {
-        font-size: 8px;
-        height: 50px;
+        font-size: 14px;
+        height: 63px;
+        text-align: center;
     }
     #downloadnow-btn {
         margin-left: 2px;
         width: 100px;
-        height: 30px;
-        font-size: 8px;
+        height: 45px;
+        font-size: 2vh;
     }
     #downloadbaricon {
         width: 40px;
         height: 40px;
     }
     .about-us{
-        font-size: 12px;
-        margin: 10%;
+        font-size: 15px;
+        margin-right: 15%;
+        text-align: justify;
     }
     .aboutusstylehead{
         font-size: 20px;
         text-align: left;
+        text-align: justify;
     }
     .about-us > h1{
         font-size: 40px;
         text-align: center;
     }
     .aboutusimg{
-        margin: 0% 30%;
+        margin: 10% 25%;
         height: 180px;
         width: 180px;
     }
@@ -409,30 +451,28 @@ li{
 
     .cardscontainerimg{
         width: 100%;
-        /* height: 200px; */
+        height: 800px;
     }
-        
+
     .pargraphcontent{
         position: absolute;
         top: 3%;
-        left: 10%;
-        font-size: 11px;
+        left: 3%;
+        font-size: 14px;
     }
     .bothcard {
         position: absolute;
-        top: 20%;
-        left: 46%;
         opacity: 0.9;
     }
     .cardscontent1{
         position: absolute;
-        top: 10%;
-        right: 20%;
+        margin-top: -30%;
+        left: 8%;
     }
     .cardscontent2 {
         position: absolute;
-        top: 5%;
-        left: 10%;
+        padding-top: 30px;
+        left: 8%;
     }
     .cardinsideimg{
         width: 35px;height: 35px;
@@ -443,10 +483,10 @@ li{
         font-size: 15px;
     }
     .card-text {
-        font-size: 11px;
+        font-size: 15px;
     }
     .card{
-        width: 170px;
+        width: 320px;
         
     }
     .card-title{
@@ -465,7 +505,7 @@ li{
         border-radius: 50%;
     }
     .childpic{
-        top: 24%;
+        top: 23%;
         left: 34%;
         width: 85px;
         height: 85px;
@@ -479,7 +519,7 @@ li{
         font-size: 24px;
     }
     .blockquote > p{
-        font-size: 14px;
+        font-size: 15px;
     }
 
 
@@ -517,14 +557,14 @@ li{
     #footerbutton1 {
         left: 10%;
         width: 110px;
-        height: 42px;
-        font-size: 10px;
+        height: 46px;
+        font-size: 9px;
     }
     #footerbutton2{
         right: 10%;
         width: 110px;
-        height: 42px;
-        font-size: 10px;
+        height: 46px;
+        font-size: 9px;
     }
     .footeraddress{
         font-size: 15px;
@@ -586,14 +626,18 @@ li{
 
 
 @media (min-width:400px) and (max-width:540px){
-       
+        
+    .logoimg{
+        width: 280px;
+        margin-right: 0%;
+    }
 
     .holdinghandimg{
         width: 100%;
-        height: 300px;
+        height: 350px;
     }
     .holdinghandtext{
-        font-size:17px;
+        font-size:20px;
     }
     
     #contactus-btn {
@@ -615,22 +659,23 @@ li{
         height: 50px;
     }
     #downloadbar {
-        font-size: 12px;
-        height: 50px;
+        font-size: 15px;
+        height: 60px;
+        text-align: center;
     }
     #downloadnow-btn {
         margin-left: 2px;
         width: 100px;
-        height: 30px;
-        font-size: 8px;
+        height: 44px;
+        font-size: 10px;
     }
     #downloadbaricon {
         width: 40px;
         height: 40px;
     }
     .about-us{
-        font-size: 12px;
-        margin: 10%;
+        font-size: 18px;
+        margin: 10% 10% 10% 0%  ;
     }
     .aboutusstylehead{
         font-size: 20px;
@@ -654,29 +699,27 @@ li{
 
     .cardscontainerimg{
         width: 100%;
-        /* height: 200px; */
+        height: 900px;
     }
-        
+
     .pargraphcontent{
         position: absolute;
         top: 3%;
-        left: 10%;
-        font-size: 11px;
+        left: 3%;
+        font-size: 18px;
     }
     .bothcard {
         position: absolute;
-        top: 20%;
-        left: 46%;
         opacity: 0.9;
     }
     .cardscontent1{
         position: absolute;
-        top: 10%;
-        right: 20%;
+        margin-top: -20%;
+        left: 10%;
     }
     .cardscontent2 {
         position: absolute;
-        top: 5%;
+        padding-top: 30px;
         left: 10%;
     }
     .cardinsideimg{
@@ -684,18 +727,18 @@ li{
     }
     
     #getstarted-btn{
-        height: 40px;
-        font-size: 15px;
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
     }
     .card-text {
-        font-size: 11px;
+        font-size: 18px;
     }
     .card{
-        width: 170px;
-        
+        width: 380px;
     }
     .card-title{
-        font-size: 15px;
+        font-size: 20px;
     }
 
 
@@ -747,11 +790,11 @@ li{
     .footerlogo {
         width: 230px;
         height: 70px;
-        margin: 10px 70px;
+        margin: 10px 30px;
     }
     .calluslable{
-        margin: -10px 15%;
-        font-size: 21px;
+        margin: -10px 18%;
+        font-size: 16px;
     }
     
     .footerheadtext{
@@ -764,12 +807,12 @@ li{
         margin-left: 10%;
         width: 110px;
         height: 50px;
-        font-size: 10px;
+        font-size: 9px;
     }
     #footerbutton2{
         width: 110px;
         height: 50px;
-        font-size: 10px;
+        font-size: 9px;
     }
     .footeraddress{
         font-size: 12px;
@@ -827,7 +870,7 @@ li{
     }
 }
 
-@media (min-width:550px) and (max-width:720px){
+@media (min-width:540px) and (max-width:720px){
        
 
     .holdinghandimg{
@@ -871,7 +914,8 @@ li{
         height: 40px;
     }
     .about-us{
-        font-size: 12px;
+        font-size: 14px;
+        left: -5%;
     }
     .aboutusstylehead{
         font-size: 20px;
@@ -891,53 +935,27 @@ li{
         font-size: 15px;
     }
 
-
-    .cardscontainerimg{
-        width: 100%;
-        /* height: 200px; */
-    }
-        
+    
     .pargraphcontent{
         position: absolute;
         top: 3%;
-        left: 12%;
-        font-size: 13px;
+        left: 5%;
     }
-    .bothcard {
+    .bothcard{
         position: absolute;
-        top: 20%;
-        left: 46%;
-        opacity: 0.9;
+        top: 25%;
     }
     .cardscontent1{
         position: absolute;
-        top: 10%;
-        right: 20%;
+        left: 10%;
     }
     .cardscontent2 {
         position: absolute;
-        top: 5%;
         left: 10%;
     }
-    .cardinsideimg{
-        width: 35px;height: 35px;
-    }
-    
-    #getstarted-btn{
-        height: 40px;
-        font-size: 15px;
-    }
-    .card-text {
-        font-size: 11px;
-    }
     .card{
-        width: 170px;
-        
+        width: 260px;
     }
-    .card-title{
-        font-size: 15px;
-    }
-
 
    
     
@@ -1065,8 +1083,13 @@ li{
 }
 
 
-@media (min-width:720px) and (max-width:900px){
+@media (min-width:720px) and (max-width:999px){
 
+
+    .logoimg{
+        width: 350px;
+        margin:10px 10%;
+    }
     .holdinghandcontent {
         top: 30%;
         right: 5%;
@@ -1123,51 +1146,27 @@ li{
         font-size: 10px;
         height: 15px;
     }
-    .cardscontainerimg{
-        width: 100%;
-        height: 450px;
-    }
-        
+
+
     .pargraphcontent{
         position: absolute;
         top: 3%;
-        left: 12%;
-        font-size: 18px;
+        left: 8%;
     }
-    .bothcard {
+    .bothcard{
         position: absolute;
         top: 25%;
-        left: 46%;
-        opacity: 0.9;
     }
     .cardscontent1{
         position: absolute;
-        top: 10%;
-        right: 20%;
+        left: 16%;
     }
     .cardscontent2 {
         position: absolute;
-        top: 5%;
-        left: 10%;
-    }
-    .cardinsideimg{
-        width: 35px;height: 35px;
-    }
-    
-    #getstarted-btn{
-        height: 40px;
-        font-size: 15px;
-    }
-    .card-text {
-        font-size: 11px;
+        left: 16%;
     }
     .card{
-        width: 250px;
-        height: 280x;
-        
-    }
-    .card-title{
-        font-size: 15px;
+        width: 300px;
     }
 
     .childcircle{
@@ -1212,7 +1211,7 @@ li{
     }
     .calluslable{
         margin: -10px 32%;
-        font-size: 21px;
+        font-size: 20px;
     }
 
 
@@ -1230,8 +1229,6 @@ li{
     .sociallinkcontainer{
         height: 100px;
         text-align: center;
-    } 
-    .socialhref{
     }   
     .social3{
         font-size: 14px;
@@ -1242,3 +1239,36 @@ li{
 }
 
 
+@media (min-width:1000px) and (max-width:1215px){
+    .logoimg{
+        margin-left: -10%;
+    }
+
+    .childpic{
+        top: 24%;
+        left:42%;
+        width: 120px;
+        height: 120px;
+    }
+    .footercontent{
+        height: 650px;
+    }
+    .footerlogo{
+        width: 500x;
+        height: 100px;
+    }
+    .calluslable{
+        font-size: 30px;
+    }
+    #footerbutton1 {
+        margin-left: 40px;
+        width: 140px;
+        height: 60px;
+        font-size: 14px;
+    }
+    #footerbutton2{
+        width: 140px;
+        height: 60px;
+        font-size: 14px;
+    }
+}
